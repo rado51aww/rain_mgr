@@ -1,0 +1,24 @@
+﻿1.Wstęp
+    1.1 Cel, problematyka i pytania badawcze
+2. Wprowadzenie
+    1. Metorologia
+    2. Sposoby prowadzenia obserwacji
+        a) tradycyjne
+        b) przy wykorzystaniu techologii - radary, problemy radarów
+        c) przypadek danych radarowych dotczących opadów - DBZ,odbiciowość, trzecia potęga kropel deszczu
+    3. Gromadzenie, przetwarzanie, analiza i prezentacja danych
+        a) tradycyjne
+        b) przy użyciu technologii - stadardy raportów metorologicnzych(synop, metar, taf)
+        c) przetwarzanie raportów - parser
+        d) przedstawianie danych - scatter plot
+        e) analiza danych - współczynnik korelacji pearsona, regresja liniowa
+3. Opis własnego rozwiązania
+        a) wybór danych - radary i ogimet synop
+        b) parser danych synop - parsowanie i połączenie z bazą, wybór stacji z Polski
+        c) dane radarowe - przetwarzanie - gdal2xyz(kanał x,y,z), projekcja, przeliczenie współrzędnych stacji na dziesiętne
+        d) baza danych(?)
+        e) prezetnacja danych - pobieranie danych, scatter plot, python, regresja
+4. Badania - przedstawienie wyników i wykresów
+    a) zestaw danych do porównania? zestaw eksperymentów?
+5. Podsumowanie wyników pracy i wnioski
+6. Zakończenie
